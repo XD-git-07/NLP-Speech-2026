@@ -157,7 +157,7 @@ Vocal-Agent/
 ├── voices-v1.0.bin        # Voice profiles
 ├── requirements.txt        # Python dependencies
 ├── vocal_agent_mac.sh     # macOS setup script
-├── demo.png               # Demo screenshot
+├── Working.jpg               # Demo screenshot
 └── README.md              # This file
 ```
 
