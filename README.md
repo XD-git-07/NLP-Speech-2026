@@ -1,7 +1,7 @@
 #     A Conversational Intelligence Layer for University Services Using Speech and NLP
 A voice-enabled conversational intelligence system that leverages speech recognition and natural language processing to provide automated university support services, enabling students to interact with academic information systems through spoken dialogue in a seamless and intelligent manner.
 
-## Features
+## Characteristics
 
 - **Real-time Speech Recognition** - Powered by Whisper + Silero VAD for accurate voice input
 - **Intelligent AI Reasoning** - Multimodal reasoning with Llama 3.1 8B through Agno agent
@@ -11,7 +11,7 @@ A voice-enabled conversational intelligence system that leverages speech recogni
 - **Extensible Tool System** - Easy to add new capabilities to the agent
 - **Cross-platform Support** - Works on macOS, Linux, and Windows
 
-## 🛠️ Tech Stack
+## 🛠️ Core Technologies
 
 | Component | Technology | Description |
 |-----------|------------|-------------|
@@ -21,14 +21,14 @@ A voice-enabled conversational intelligence system that leverages speech recogni
 | **Agent Framework** | Agno LLM Agent | Extensible tool-calling capabilities |
 | **Audio Processing** | SoundDevice + SoundFile | Real-time audio I/O |
 
-## Prerequisites
+## Requirements
 
 - **Python 3.9+**
 - **Ollama** - Local LLM server
 - **espeak-ng** - Text-to-speech engine
 - **Microphone and Speakers** - For voice interaction
 
-## Quick Start
+## Installation & Setup
 
 ### 1. Install Ollama
 
@@ -51,7 +51,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ```bash
 # Clone the repository
-git clone https://github.com/tarun7r/Vocal-Agent.git
+git clone https://github.com/XD-git-07/NLP-Speech-2026.git
 cd Vocal-Agent
 
 # Install Python dependencies
@@ -200,17 +200,3 @@ The agent uses the Agno framework, which supports extensible tool calling. To ad
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- **[RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)** - Real-time speech recognition and VAD
-- **[Kokoro-ONNX](https://github.com/thewh1teagle/kokoro-onnx)** - Efficient text-to-speech synthesis
-- **[Agno](https://docs.agno.com/introduction)** - LLM agent framework
-- **[Ollama](https://ollama.ai/)** - Local LLM serving
-- **[Weebo](https://github.com/amanvirparhar/weebo)** - Project inspiration
-
-
----
-
-⭐ Star this repository if you find it helpful!
-
