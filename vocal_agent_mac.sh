@@ -26,7 +26,7 @@ fi
 # Clone the repository if not already cloned
 if [ ! -d "Vocal-Agent" ]; then
     echo "Cloning Vocal-Agent repository..."
-    git clone https://github.com/tarun7r/Vocal-Agent.git || error_exit "Failed to clone repository."
+    git clone https://github.com/XD-git-07/NLP-Speech-2026.git || error_exit "Failed to clone repository."
 fi
 
 cd Vocal-Agent || error_exit "Failed to navigate to Vocal-Agent directory."
